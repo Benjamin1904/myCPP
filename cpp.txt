@@ -1,0 +1,60 @@
+一、程序结构
+1.单文件
+
+#include <iostream>
+#include <头文件>
+
+using namespace std;
+
+#define 常量声明
+const 常量声明
+
+struct定义
+
+class{}定义
+
+函数声明
+
+int main()
+{
+    statement;
+    return 0;
+}
+
+函数定义
+
+
+2.多文件(main.cpp/head.h/fun.cpp)
+head.h
+    #define 常量定义
+    struct定义
+    class   classname
+    {
+        public:
+            公共函数声明
+        private:
+            私有属性
+    }
+
+fun.cpp
+    #include <iostream>
+    #include <头文件>
+
+    函数定义
+
+main.cpp
+
+#include <iostream>
+#include <头文件>
+using namespace  std;
+
+const 全局常量
+
+int main()
+{
+    statement;
+    return 0;
+}
+
+二、数据类型
+    整型：
