@@ -72,6 +72,27 @@ int main()
 三、语句
     循环
         for循环
-        for(initialization; test-expression; update-expression)
+        for(init-expression; test-expression; update-expression)
+        {
+            statement(s)
+        }
+
+        while循环
+        init-expression;
+        while(test-expression)
+        {
+            statement(s)
+            update-expression;
+        }
+
+        do-while循环
+        do
             body
+        while(test-expression)
+
+        基于范围的for循环
+        double prices[5] = {};
+        for (dobule x : prices)
+            body
+        
     
