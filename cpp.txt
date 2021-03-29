@@ -57,4 +57,21 @@ int main()
 }
 
 二、数据类型
-    整型：
+    见思维导图
+
+    数组：
+    声明：typeName arrayName[arraySize];
+        //通过从0开始编号的索引标识访问数组中的各个元素
+    赋值：
+        在数组声明时可初始化：int array[arraySize] = {0,1,...}；
+        array[0]= 3;
+    字符串：
+        C-风格字符串
+
+
+三、语句
+    循环
+        for循环
+        for(initialization; test-expression; update-expression)
+            body
+    
