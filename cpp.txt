@@ -95,4 +95,49 @@ int main()
         for (dobule x : prices)
             body
         
+
+        cin读取到EOF时停止读取输入，使用cin.fail()判断是否读取到EOF，若继续读取输入，需使用cin.clear().也可使用while(cin)
+
+    分支
+        if else语句
+        if (test-expression)
+		{
+			statement1
+		}
+		else if (test-expression)
+		{
+			statement2
+		}
+		else
+		{
+			statement3
+		}
     
+        ?:
+            expression1 ? expression2 : expression3
+        
+        switch
+        switch (integer-expression)
+        {
+            case label1:statement(s)
+            case lable2:statement(s)
+            ...
+            default  ：statement(s)
+        }
+
+        对于枚举中的量，本质上是整数
+
+函数
+一
+    函数声明
+        使编译器正确处理函数返回值，检查参数数目与类型是否正确。
+        typeName functionName(parameterList);
+    函数定义
+        typeName functionName(parameterList)
+        {
+            statement(s)
+            return value;
+        }
+    函数调用
+
+    1.
